@@ -1,0 +1,44 @@
+services:
+  elecciones-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: elecciones-dashboard:latest
+    container_name: elecciones-dashboard
+    hostname: elecciones-dashboard
+    restart: always
+    expose:
+      - 8081
+    networks:
+      - coolify
+    labels:
+      - "coolify.managed=true"
+      - "traefik.enable=true"
+      - "traefik.http.routers.elecciones.rule=Host(`elecciones.rreditores.com`)"
+      - "traefik.http.routers.elecciones.entrypoints=web,websecure"
+      - "traefik.http.routers.elecciones.tls=true"
+      - "traefik.http.services.elecciones.loadbalancer.server.port=8081"
+    environment:
+      - PRODUCTION=true
+      - PORT=8081
+      - REG_USER=${REG_USER}
+      - REG_PASS=${REG_PASS}
+      - STORAGE_SECRET=${STORAGE_SECRET:-secret-electoral-2026}
+    volumes:
+      - elecciones_cache:/app/cache
+      - elecciones_pdfs:/app/boletines_pdf
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8081/" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  coolify:
+    external: true
+
+volumes:
+  elecciones_cache:
+    driver: local
+  elecciones_pdfs:
+    driver: local

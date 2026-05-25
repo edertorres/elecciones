@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# SSH keys
+id_ed25519
+
+# Local secrets
+.env
+
+# Runtime/generated data
+cache/
+boletines_pdf/
+.nicegui/
+.ruff_cache/
+*.pdf
+*.typ
+*.csv
