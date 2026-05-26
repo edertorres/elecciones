@@ -1102,35 +1102,27 @@ def generate_typst_pro(
             L.append("      width: 100%,")
             L.append("    )[")
             if page_width <= 9.5:
-                L.append("      #set text(size: 6.8pt)")
+                L.append("      #set text(size: 6.2pt)")
                 L.append("      #grid(")
-                L.append("        columns: (auto, 1fr, auto),")
-                L.append("        row-gutter: 2.5pt,")
+                L.append("        columns: (auto, auto, 1fr, auto, auto),")
+                L.append("        column-gutter: 4pt,")
+                L.append("        row-gutter: 2.2pt,")
                 L.append("        inset: 1pt,")
                 p_tot_str = f" ({p_tot})" if p_tot else ""
-                L.append(
-                    f"        [VOTANTES], [], [#align(right)[*{fmt(v_tot)}*#text(size: 5.8pt)[{p_tot_str}]]],"
-                )
                 p_mesas = s.get('pmesas', '')
                 p_mesas_str = f" ({p_mesas})" if p_mesas else ""
                 L.append(
-                    f"        [MESAS INFORMADAS], [], [#align(right)[*{s.get('mesas_info')}*#text(size: 5.8pt)[{p_mesas_str}]]],"
+                    f"        [VOTANTES], [#align(right)[*{fmt(v_tot)}*#text(size: 5.4pt)[{p_tot_str}]]], [], [MESAS INF.], [#align(right)[*{s.get('mesas_info')}*#text(size: 5.4pt)[{p_mesas_str}]]],"
                 )
                 p_val_str = f" ({p_val})" if p_val else ""
-                L.append(
-                    f"        [VÁLIDOS], [], [#align(right)[*{fmt(v_val)}*#text(size: 5.8pt)[{p_val_str}]]],"
-                )
                 p_bla_str = f" ({p_bla})" if p_bla else ""
                 L.append(
-                    f"        [EN BLANCO], [], [#align(right)[*{fmt(v_bla)}*#text(size: 5.8pt)[{p_bla_str}]]],"
+                    f"        [VÁLIDOS], [#align(right)[*{fmt(v_val)}*#text(size: 5.4pt)[{p_val_str}]]], [], [EN BLANCO], [#align(right)[*{fmt(v_bla)}*#text(size: 5.4pt)[{p_bla_str}]]],"
                 )
                 p_nom_str = f" ({p_nom})" if p_nom else ""
-                L.append(
-                    f"        [NO MARCADOS], [], [#align(right)[*{fmt(v_nom)}*#text(size: 5.8pt)[{p_nom_str}]]],"
-                )
                 p_nul_str = f" ({p_nul})" if p_nul else ""
                 L.append(
-                    f"        [NULOS], [], [#align(right)[*{fmt(v_nul)}*#text(size: 5.8pt)[{p_nul_str}]]],"
+                    f"        [NO MARC.], [#align(right)[*{fmt(v_nom)}*#text(size: 5.4pt)[{p_nom_str}]]], [], [NULOS], [#align(right)[*{fmt(v_nul)}*#text(size: 5.4pt)[{p_nul_str}]]],"
                 )
                 L.append("      )")
             else:
@@ -1359,33 +1351,26 @@ def generate_typst_national_dept_table(
             L.append("      width: 100%,")
             L.append("    )[")
             if eff_w <= 9.5:
-                L.append("      #set text(size: 6.8pt)")
+                L.append("      #set text(size: 6.2pt)")
                 L.append("      #grid(")
-                L.append("        columns: (auto, 1fr, auto),")
-                L.append("        row-gutter: 2.5pt,")
+                L.append("        columns: (auto, auto, 1fr, auto, auto),")
+                L.append("        column-gutter: 4pt,")
+                L.append("        row-gutter: 2.2pt,")
                 L.append("        inset: 1pt,")
                 p_tot_str = f" ({s.get('pvotantes', '')})" if s.get('pvotantes') else ""
+                p_mesas_str = f" ({s.get('pmesas', '')})" if s.get('pmesas') else ""
                 L.append(
-                    f"        [VOTANTES], [], [#align(right)[*{fmt(s.get('votantes', 0))}*#text(size: 5.8pt)[{p_tot_str}]]],"
-                )
-                L.append(
-                    f"        [MESAS INFORMADAS], [], [#align(right)[*{s.get('mesas_info', '')}*]]],"
+                    f"        [VOTANTES], [#align(right)[*{fmt(s.get('votantes', 0))}*#text(size: 5.4pt)[{p_tot_str}]]], [], [MESAS INF.], [#align(right)[*{s.get('mesas_info', '')}*#text(size: 5.4pt)[{p_mesas_str}]]],"
                 )
                 p_val_str = f" ({s.get('pvalidos', '')})" if s.get('pvalidos') else ""
-                L.append(
-                    f"        [VÁLIDOS], [], [#align(right)[*{fmt(s.get('validos', 0))}*#text(size: 5.8pt)[{p_val_str}]]],"
-                )
                 p_bla_str = f" ({s.get('pblancos', '')})" if s.get('pblancos') else ""
                 L.append(
-                    f"        [EN BLANCO], [], [#align(right)[*{fmt(s.get('blancos', 0))}*#text(size: 5.8pt)[{p_bla_str}]]],"
+                    f"        [VÁLIDOS], [#align(right)[*{fmt(s.get('validos', 0))}*#text(size: 5.4pt)[{p_val_str}]]], [], [EN BLANCO], [#align(right)[*{fmt(s.get('blancos', 0))}*#text(size: 5.4pt)[{p_bla_str}]]],"
                 )
                 p_nom_str = f" ({s.get('pno_marcados', '')})" if s.get('pno_marcados') else ""
-                L.append(
-                    f"        [NO MARCADOS], [], [#align(right)[*{fmt(s.get('no_marcados', 0))}*#text(size: 5.8pt)[{p_nom_str}]]],"
-                )
                 p_nul_str = f" ({s.get('pnulos', '')})" if s.get('pnulos') else ""
                 L.append(
-                    f"        [NULOS], [], [#align(right)[*{fmt(s.get('nulos', 0))}*#text(size: 5.8pt)[{p_nul_str}]]],"
+                    f"        [NO MARC.], [#align(right)[*{fmt(s.get('no_marcados', 0))}*#text(size: 5.4pt)[{p_nom_str}]]], [], [NULOS], [#align(right)[*{fmt(s.get('nulos', 0))}*#text(size: 5.4pt)[{p_nul_str}]]],"
                 )
                 L.append("      )")
             else:
