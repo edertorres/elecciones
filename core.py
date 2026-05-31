@@ -25,6 +25,76 @@ load_env()
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cache")
 PDF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "boletines_pdf")
 
+
+def _decode_election_text(raw: bytes) -> str:
+    """Decodifica textos oficiales, prefiriendo UTF-8 y usando Latin-1 como respaldo."""
+    if raw.startswith(b"\xef\xbb\xbf"):
+        raw = raw[3:]
+
+    for encoding in ("utf-8", "latin-1"):
+        try:
+            return _clean_election_text(raw.decode(encoding))
+        except UnicodeDecodeError:
+            continue
+
+    return _clean_election_text(raw.decode("utf-8", errors="replace"))
+
+
+def _clean_election_text(value) -> str:
+    """Corrige mojibake frecuente en textos oficiales ya mal codificados."""
+    if value is None:
+        return ""
+
+    text = str(value).strip()
+    if not text:
+        return text
+
+    markers = ("Ã", "Â", "â", "�")
+    if not any(marker in text for marker in markers):
+        return text
+
+    def score(candidate: str) -> int:
+        return sum(candidate.count(marker) for marker in markers) + (
+            candidate.count("�") * 3
+        )
+
+    candidates = [text]
+    for encoding in ("latin-1", "cp1252"):
+        try:
+            candidates.append(text.encode(encoding).decode("utf-8"))
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            continue
+
+    return min(candidates, key=score)
+
+
+def _clean_dataframe_text(df: pd.DataFrame) -> pd.DataFrame:
+    """Limpia mojibake en columnas de texto sin alterar columnas numéricas."""
+    for col in df.select_dtypes(include=["object", "string"]).columns:
+        df[col] = df[col].map(
+            lambda value: _clean_election_text(value)
+            if isinstance(value, str)
+            else value
+        )
+    return df
+
+
+def _clean_stats_map_text(stats_map: dict) -> dict:
+    """Limpia nombres usados como llaves en estadísticas cacheadas."""
+    cleaned = {}
+    for key, value in stats_map.items():
+        clean_key = key if str(key).startswith("__") else _clean_election_text(key)
+        if isinstance(value, dict):
+            value = value.copy()
+            if isinstance(value.get("by_circ"), dict):
+                value["by_circ"] = {
+                    _clean_election_text(circ): circ_stats
+                    for circ, circ_stats in value["by_circ"].items()
+                }
+        cleaned[clean_key] = value
+    return cleaned
+
+
 # ---------------------------------------------------------------------------
 # Utilidades HTTP
 # ---------------------------------------------------------------------------
@@ -94,14 +164,15 @@ class RegistraduriaBot:
             response = self.session.get(url, timeout=10)
             print(f"DEBUG: Status Code: {response.status_code}")
             response.raise_for_status()
+            text = _decode_election_text(response.content)
 
             # Detectar "shadow-ban" (200 OK pero con basura 'iiii')
-            if response.text.startswith("iiiiii"):
+            if text.startswith("iiiiii"):
                 raise Exception(
                     "El servidor está devolviendo datos basura (posible bloqueo por exceso de peticiones o sesiones concurrentes). Por favor, cierra sesión en el navegador y espera 10 minutos."
                 )
 
-            return response.text
+            return text
         except Exception as e:
             print(f"DEBUG: Error descargando {path}: {e}")
             raise
@@ -115,7 +186,7 @@ class RegistraduriaBot:
             response.raise_for_status()
             with zipfile.ZipFile(BytesIO(response.content)) as z:
                 with z.open(filename_inside) as f:
-                    return f.read().decode("latin-1")
+                    return _decode_election_text(f.read())
         except Exception as e:
             print(f"DEBUG: Error procesando ZIP {path}: {e}")
             raise
@@ -152,6 +223,8 @@ def parse_divipol(content):
         "nombre_puesto",
     ]
     df = pd.read_fwf(StringIO(content), colspecs=colspecs, names=names, header=None)
+    for col in ("departamento", "municipio", "nombre_puesto"):
+        df[col] = df[col].map(_clean_election_text)
     return df
 
 
@@ -164,6 +237,7 @@ def parse_partidos(content):
     )
     for col in df.columns:
         df[col] = df[col].str.strip()
+    df["nombre_partido"] = df["nombre_partido"].map(_clean_election_text)
     return df
 
 
@@ -203,6 +277,8 @@ def parse_candidatos(content):
     for col in df.columns:
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace("nan", "")
+    for col in ("nombre", "apellido"):
+        df[col] = df[col].map(_clean_election_text)
 
     return df
 
@@ -223,6 +299,8 @@ def save_cache(dept_code: str, df: pd.DataFrame, stats_map: dict) -> str:
     """Guarda datos y estadísticas en caché local para Presidencia. Retorna timestamp ISO."""
     df_path, stats_path, meta_path = _cache_paths(dept_code)
     now = datetime.now(timezone.utc).isoformat()
+    df = _clean_dataframe_text(df.copy())
+    stats_map = _clean_stats_map_text(stats_map)
 
     df.to_json(df_path, orient="records", force_ascii=False)
     with open(stats_path, "w", encoding="utf-8") as f:
@@ -256,13 +334,14 @@ def load_cache(dept_code: str):
 
     try:
         df = pd.read_json(df_path, orient="records")
+        df = _clean_dataframe_text(df)
         if not df.empty:
             df = df.sort_values(
                 by=["Municipio", "Partido_Votos", "Votos"],
                 ascending=[True, False, False],
             )
         with open(stats_path, encoding="utf-8") as f:
-            stats_map = json.load(f)
+            stats_map = _clean_stats_map_text(json.load(f))
         with open(meta_path, encoding="utf-8") as f:
             meta = json.load(f)
         return (df, stats_map, meta), None
@@ -338,7 +417,9 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
 
             df_partidos = parse_partidos(partidos_txt)
             party_map = {
-                _norm(row["cod_partido"]): str(row["nombre_partido"]).strip()
+                _norm(row["cod_partido"]): _clean_election_text(
+                    row["nombre_partido"]
+                )
                 for _, row in df_partidos.iterrows()
             }
 
@@ -352,8 +433,8 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                 circ_code = str(row["circunscripcion"]).strip()
                 p_code = _norm(row["cod_partido"])
                 c_code = _norm(row["n_candidato"])
-                non_null_name = str(row["nombre"])
-                non_null_last = str(row["apellido"])
+                non_null_name = _clean_election_text(row["nombre"])
+                non_null_last = _clean_election_text(row["apellido"])
                 full_name = f"{non_null_name} {non_null_last}".strip()
                 # Use strictly circ-qualified key to avoid cross-department collisions
                 cand_map[f"{circ_code}-{p_code}-{c_code}"] = full_name
@@ -373,14 +454,18 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                     cn = -1
 
                 if cn == 0:
-                    return party_map.get(party, f"Partido {party}")
+                    return _clean_election_text(
+                        party_map.get(party, f"Partido {party}")
+                    )
 
                 # Presidencia SIEMPRE usa la circunscripción 000 a nivel nacional en CANDIDATOS.txt
                 lookup_circ = "000"
                 lookup_cand = str(cand_num)
 
                 key = f"{lookup_circ}-{party}-{lookup_cand}"
-                return cand_map.get(key, f"Candidato {cand_num}")
+                return _clean_election_text(
+                    cand_map.get(key, f"Candidato {cand_num}")
+                )
 
             _progress("Archivos básicos cargados", 1, 1)
 
@@ -459,6 +544,8 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                 except:
                     return 0
 
+            muni_name = _clean_election_text(muni_name)
+
             if muni_name not in stats_map:
                 stats_map[muni_name] = {
                     "votantes": _to_int(b.get("Total_Sufragantes", 0)),
@@ -480,7 +567,9 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                 circs = [b]
 
             for circ in circs:
-                circ_desc = str(circ.get("Desc_Circunscripcion", "PRESIDENCIA")).upper()
+                circ_desc = _clean_election_text(
+                    circ.get("Desc_Circunscripcion", "PRESIDENCIA")
+                ).upper()
 
                 c_stats = {}
                 for ct in circ.get("Detalle_Partidos_Totales", []):
@@ -555,7 +644,7 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                     cp = _norm(c.get("Partido", ""))
                     cc = _norm(c.get("Candidato", ""))
                     p_info = party_votes_info.get(cp, {"v": 0, "p": "0%"})
-                    p_name = party_map.get(cp, f"Partido {cp}")
+                    p_name = _clean_election_text(party_map.get(cp, f"Partido {cp}"))
                     cand_full_name = _lookup_cand(circ_id, current_circ, cp, cc)
                     all_data.append(
                         {
@@ -577,7 +666,9 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                             {
                                 "Municipio": muni_name,
                                 "Circunscripcion": circ_desc,
-                                "Partido": party_map.get(cp, f"Partido {cp}"),
+                                "Partido": _clean_election_text(
+                                    party_map.get(cp, f"Partido {cp}")
+                                ),
                                 "Partido_Votos": info["v"],
                                 "Partido_P": info["p"],
                                 "Candidato": "Votos por Partido",
@@ -607,7 +698,7 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                     )
                 total_targets = len(boletines_de)
                 for idx_b, b in enumerate(boletines_de):
-                    dept_name = b.get("Desc_Departamento", "").strip()
+                    dept_name = _clean_election_text(b.get("Desc_Departamento", ""))
                     if not dept_name:
                         continue
                     _progress(f"Procesando {dept_name}…", idx_b + 1, total_targets)
@@ -667,7 +758,9 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
                     if bmuni == "000":
                         muni_name = "** CONSOLIDADO **"
                     else:
-                        muni_name = b.get("Desc_Municipio", "DEPARTAMENTO").strip()
+                        muni_name = _clean_election_text(
+                            b.get("Desc_Municipio", "DEPARTAMENTO")
+                        )
                     t_code = str(b.get("Departamento", dept_code)).zfill(4)
                     _process_boletin(b, muni_name, t_code)
 
@@ -676,6 +769,7 @@ def scrape_official_data(dept_code="2400", user=None, password=None, on_progress
 
         _progress("Procesando resultados consolidados…", total_targets, total_targets)
         df = pd.DataFrame(all_data)
+        df = _clean_dataframe_text(df)
         if not df.empty:
             # ── AGREGAR "Todo el Ámbito" a stats_map ──
             # Sumar contadores de todos los municipios (excluyendo __REPORTE__)
