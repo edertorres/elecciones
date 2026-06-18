@@ -1064,7 +1064,7 @@ def generate_typst_pro(
     L.append("")
     L.append("#set text(")
     L.append('  font: ("PT Sans", "Roboto"),')
-    L.append("  size: 7.2pt,")
+    L.append("  size: 9.0pt,")
     L.append("  fill: pure_black,")
     L.append("  fallback: true,")
     L.append("  stretch: 75%,")
@@ -1075,7 +1075,7 @@ def generate_typst_pro(
     L.append("// Tabla de candidatos Zebra, UNA COLUMNA")
     L.append(f"#let _crow(c) = grid(")
     L.append("  columns: (1fr, 45pt, 35pt),")
-    L.append(f"  inset: (y: {row_inset_y}pt, x: 3pt),")
+    L.append(f"  inset: (y: 4pt, x: 3pt),")
     L.append(
         '  [#c.at(0)], [#align(right)[#text(weight: "bold")[#c.at(1)]]], [#align(right)[#c.at(2)]]'
     )
@@ -1090,13 +1090,13 @@ def generate_typst_pro(
     L.append("  #set block(spacing: 0pt)")
     L.append("  #grid(")
     L.append("    columns: (1fr, 45pt, 35pt),")
-    L.append(f"    inset: (y: {row_inset_y}pt, x: 3pt),")
-    L.append("    [*CANDIDATO*], [#align(right)[*VOTOS*]], [#align(right)[*%*]],")
+    L.append(f"    inset: (y: 0.5pt, x: 3pt),")
+    L.append("    [], [#align(right)[*VOTOS*]], [#align(right)[*%*]],")
     L.append("  )")
     L.append("  #for (i, c) in candidatos.enumerate() {")
     L.append("    if calc.odd(i) {")
     L.append(
-        f"      block(width: 100%, fill: luma(220), radius: {row_radius}pt, clip: true, inset: 0pt)["
+        f"      block(width: 100%, fill: luma(255), radius: {row_radius}pt, clip: true, inset: 0pt)["
     )
     L.append("        #_crow(c)")
     L.append("      ]")
@@ -1144,7 +1144,7 @@ def generate_typst_pro(
         L.append("")
 
         # 2. Tabla zebra de candidatos
-        L.append("  #pad(x: 8pt, top: 4pt, bottom: 4pt)[")
+        L.append("  #pad(x: 8pt, top: -2pt, bottom: 4pt)[")
         L.append(f"    #candidate_table((\n{cands_str}\n    ))")
         L.append("  ]")
 
@@ -1187,7 +1187,7 @@ def generate_typst_pro(
                     return str(val)
 
             L.append("")
-            L.append("  #pad(x: 10pt, top: -3pt, bottom: 8pt)[")
+            L.append("  #pad(x: 10pt, top: -10pt, bottom: 8pt)[")
             L.append("    #block(")
             L.append("      fill: luma(252),")
             L.append("      radius: 4pt,")
@@ -1331,7 +1331,7 @@ def generate_typst_national_dept_table(
         "",
         "#set text(",
         '  font: ("PT Sans", "Roboto"),',
-        "  size: 7.2pt,",
+        "  size: 11pt,",
         "  fill: pure_black,",
         "  fallback: true,",
         "  stretch: 75%,",

@@ -1,0 +1,3019 @@
+{
+  "Boletin": [
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "094",
+      "Desc_Municipio": "SANTUARIO",
+      "Fecha": "03021317",
+      "Anio": "2026",
+      "Mesas_Instaladas": 39,
+      "Mesas_Informadas": 39,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 12111,
+      "Total_Sufragantes": 6055,
+      "Porc_Sufragantes": 49.99,
+      "Votos_Validos": 5599,
+      "Porc_Votos_Validos": 92.46,
+      "Votos_Nulos": 281,
+      "Porc_Votos_Nulos": 4.64,
+      "Votos_No_Marcados": 175,
+      "Porc_Votos_No_Marcados": 2.89,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 5599,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 5599,
+              "Porc": 92.46
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 3178,
+              "Porc_Votos": 56.76,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1787,
+              "Porc_Votos": 31.91,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 634,
+              "Porc_Votos": 11.32,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 8,
+              "Votos": 255,
+              "Porc_Votos": 4.55,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 9,
+              "Votos": 263,
+              "Porc_Votos": 4.69,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 5,
+              "Votos": 281,
+              "Porc_Votos": 5.01,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 6,
+              "Votos": 299,
+              "Porc_Votos": 5.34,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 5,
+              "Votos": 302,
+              "Porc_Votos": 5.39,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 2,
+              "Votos": 309,
+              "Porc_Votos": 5.51,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 2,
+              "Votos": 312,
+              "Porc_Votos": 5.57,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 1,
+              "Votos": 325,
+              "Porc_Votos": 5.8,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 2,
+              "Votos": 357,
+              "Porc_Votos": 6.37,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 4,
+              "Votos": 377,
+              "Porc_Votos": 6.73,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 1,
+              "Votos": 405,
+              "Porc_Votos": 7.23,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 4,
+              "Votos": 407,
+              "Porc_Votos": 7.26,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 3,
+              "Votos": 412,
+              "Porc_Votos": 7.35,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 1,
+              "Votos": 427,
+              "Porc_Votos": 7.62,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 3,
+              "Votos": 428,
+              "Porc_Votos": 7.64,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400094",
+              "Candidato": 7,
+              "Votos": 440,
+              "Porc_Votos": 7.85,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0002",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "086",
+      "Desc_Municipio": "SANTA ROSA DE CABAL",
+      "Fecha": "03021317",
+      "Anio": "2026",
+      "Mesas_Instaladas": 199,
+      "Mesas_Informadas": 199,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 68634,
+      "Total_Sufragantes": 34314,
+      "Porc_Sufragantes": 49.99,
+      "Votos_Validos": 30476,
+      "Porc_Votos_Validos": 88.81,
+      "Votos_Nulos": 1779,
+      "Porc_Votos_Nulos": 5.18,
+      "Votos_No_Marcados": 2059,
+      "Porc_Votos_No_Marcados": 6.0,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 30476,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 30476,
+              "Porc": 88.81
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 17245,
+              "Porc_Votos": 56.58,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 9328,
+              "Porc_Votos": 30.6,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 3903,
+              "Porc_Votos": 12.8,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 1,
+              "Votos": 1776,
+              "Porc_Votos": 5.82,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 2,
+              "Votos": 1777,
+              "Porc_Votos": 5.83,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 9,
+              "Votos": 1797,
+              "Porc_Votos": 5.89,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 2,
+              "Votos": 1823,
+              "Porc_Votos": 5.98,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 6,
+              "Votos": 1842,
+              "Porc_Votos": 6.04,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 5,
+              "Votos": 1862,
+              "Porc_Votos": 6.1,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 2,
+              "Votos": 1870,
+              "Porc_Votos": 6.13,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 3,
+              "Votos": 1873,
+              "Porc_Votos": 6.14,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 3,
+              "Votos": 1883,
+              "Porc_Votos": 6.17,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 7,
+              "Votos": 1913,
+              "Porc_Votos": 6.27,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 5,
+              "Votos": 1947,
+              "Porc_Votos": 6.38,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 8,
+              "Votos": 1986,
+              "Porc_Votos": 6.51,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 1,
+              "Votos": 2011,
+              "Porc_Votos": 6.59,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 4,
+              "Votos": 2030,
+              "Porc_Votos": 6.66,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 1,
+              "Votos": 2033,
+              "Porc_Votos": 6.67,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400086",
+              "Candidato": 4,
+              "Votos": 2053,
+              "Porc_Votos": 6.73,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "078",
+      "Desc_Municipio": "QUINCHIA",
+      "Fecha": "03021312",
+      "Anio": "2026",
+      "Mesas_Instaladas": 68,
+      "Mesas_Informadas": 68,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 21760,
+      "Total_Sufragantes": 10880,
+      "Porc_Sufragantes": 50.0,
+      "Votos_Validos": 9763,
+      "Porc_Votos_Validos": 89.73,
+      "Votos_Nulos": 743,
+      "Porc_Votos_Nulos": 6.82,
+      "Votos_No_Marcados": 374,
+      "Porc_Votos_No_Marcados": 3.43,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 9763,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 9763,
+              "Porc": 89.73
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 5591,
+              "Porc_Votos": 57.26,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 3095,
+              "Porc_Votos": 31.7,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 1077,
+              "Porc_Votos": 11.03,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 5,
+              "Votos": 377,
+              "Porc_Votos": 3.86,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 6,
+              "Votos": 407,
+              "Porc_Votos": 4.16,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 2,
+              "Votos": 493,
+              "Porc_Votos": 5.04,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 1,
+              "Votos": 529,
+              "Porc_Votos": 5.41,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 8,
+              "Votos": 553,
+              "Porc_Votos": 5.66,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 1,
+              "Votos": 584,
+              "Porc_Votos": 5.98,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 4,
+              "Votos": 600,
+              "Porc_Votos": 6.14,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 3,
+              "Votos": 606,
+              "Porc_Votos": 6.2,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 2,
+              "Votos": 614,
+              "Porc_Votos": 6.28,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 3,
+              "Votos": 665,
+              "Porc_Votos": 6.81,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 5,
+              "Votos": 687,
+              "Porc_Votos": 7.03,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 1,
+              "Votos": 700,
+              "Porc_Votos": 7.16,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 9,
+              "Votos": 702,
+              "Porc_Votos": 7.19,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 4,
+              "Votos": 728,
+              "Porc_Votos": 7.45,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 7,
+              "Votos": 732,
+              "Porc_Votos": 7.49,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400078",
+              "Candidato": 2,
+              "Votos": 786,
+              "Porc_Votos": 8.05,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "070",
+      "Desc_Municipio": "PUEBLO RICO",
+      "Fecha": "03021312",
+      "Anio": "2026",
+      "Mesas_Instaladas": 38,
+      "Mesas_Informadas": 38,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 12219,
+      "Total_Sufragantes": 6110,
+      "Porc_Sufragantes": 50.0,
+      "Votos_Validos": 5513,
+      "Porc_Votos_Validos": 90.22,
+      "Votos_Nulos": 275,
+      "Porc_Votos_Nulos": 4.5,
+      "Votos_No_Marcados": 322,
+      "Porc_Votos_No_Marcados": 5.27,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 5513,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 5513,
+              "Porc": 90.22
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 3315,
+              "Porc_Votos": 60.13,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1678,
+              "Porc_Votos": 30.43,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 520,
+              "Porc_Votos": 9.43,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 1,
+              "Votos": 210,
+              "Porc_Votos": 3.8,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 1,
+              "Votos": 244,
+              "Porc_Votos": 4.42,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 4,
+              "Votos": 268,
+              "Porc_Votos": 4.86,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 5,
+              "Votos": 284,
+              "Porc_Votos": 5.15,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 1,
+              "Votos": 299,
+              "Porc_Votos": 5.42,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 3,
+              "Votos": 302,
+              "Porc_Votos": 5.47,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 2,
+              "Votos": 310,
+              "Porc_Votos": 5.62,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 9,
+              "Votos": 339,
+              "Porc_Votos": 6.14,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 5,
+              "Votos": 345,
+              "Porc_Votos": 6.25,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 7,
+              "Votos": 362,
+              "Porc_Votos": 6.56,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 2,
+              "Votos": 382,
+              "Porc_Votos": 6.92,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 3,
+              "Votos": 397,
+              "Porc_Votos": 7.2,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 4,
+              "Votos": 413,
+              "Porc_Votos": 7.49,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 2,
+              "Votos": 430,
+              "Porc_Votos": 7.79,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 8,
+              "Votos": 459,
+              "Porc_Votos": 8.32,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400070",
+              "Candidato": 6,
+              "Votos": 469,
+              "Porc_Votos": 8.5,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0012",
+      "Tipo_Boletin": "DEPARTAMENTAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "000",
+      "Desc_Municipio": "NO APLICA",
+      "Fecha": "03021317",
+      "Anio": "2026",
+      "Mesas_Instaladas": 2642,
+      "Mesas_Informadas": 2642,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 874695,
+      "Total_Sufragantes": 436541,
+      "Porc_Sufragantes": 49.9,
+      "Votos_Validos": 388191,
+      "Porc_Votos_Validos": 88.92,
+      "Votos_Nulos": 24913,
+      "Porc_Votos_Nulos": 5.7,
+      "Votos_No_Marcados": 23437,
+      "Porc_Votos_No_Marcados": 5.36,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 388191,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 388191,
+              "Porc": 88.92
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 220265,
+              "Porc_Votos": 56.74,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 120534,
+              "Porc_Votos": 31.05,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 47392,
+              "Porc_Votos": 12.2,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 2,
+              "Votos": 23428,
+              "Porc_Votos": 6.03,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 1,
+              "Votos": 23456,
+              "Porc_Votos": 6.04,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 2,
+              "Votos": 23501,
+              "Porc_Votos": 6.05,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 5,
+              "Votos": 23585,
+              "Porc_Votos": 6.07,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 8,
+              "Votos": 23962,
+              "Porc_Votos": 6.17,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 1,
+              "Votos": 23964,
+              "Porc_Votos": 6.17,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 3,
+              "Votos": 23987,
+              "Porc_Votos": 6.17,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 1,
+              "Votos": 24054,
+              "Porc_Votos": 6.19,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 5,
+              "Votos": 24114,
+              "Porc_Votos": 6.21,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 6,
+              "Votos": 24123,
+              "Porc_Votos": 6.21,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 9,
+              "Votos": 24385,
+              "Porc_Votos": 6.28,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 7,
+              "Votos": 24646,
+              "Porc_Votos": 6.34,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 3,
+              "Votos": 24679,
+              "Porc_Votos": 6.35,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 2,
+              "Votos": 25300,
+              "Porc_Votos": 6.51,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 4,
+              "Votos": 25407,
+              "Porc_Votos": 6.54,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400",
+              "Candidato": 4,
+              "Votos": 25600,
+              "Porc_Votos": 6.59,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "021",
+      "Desc_Municipio": "BELEN DE UMBRIA",
+      "Fecha": "03021251",
+      "Anio": "2026",
+      "Mesas_Instaladas": 72,
+      "Mesas_Informadas": 72,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 22859,
+      "Total_Sufragantes": 11431,
+      "Porc_Sufragantes": 50.0,
+      "Votos_Validos": 10252,
+      "Porc_Votos_Validos": 89.68,
+      "Votos_Nulos": 531,
+      "Porc_Votos_Nulos": 4.64,
+      "Votos_No_Marcados": 648,
+      "Porc_Votos_No_Marcados": 5.66,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 10252,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 10252,
+              "Porc": 89.68
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 5821,
+              "Porc_Votos": 56.77,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 3299,
+              "Porc_Votos": 32.17,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 1132,
+              "Porc_Votos": 11.04,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 8,
+              "Votos": 455,
+              "Porc_Votos": 4.43,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 2,
+              "Votos": 496,
+              "Porc_Votos": 4.83,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 4,
+              "Votos": 544,
+              "Porc_Votos": 5.3,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 7,
+              "Votos": 559,
+              "Porc_Votos": 5.45,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 1,
+              "Votos": 577,
+              "Porc_Votos": 5.62,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 6,
+              "Votos": 582,
+              "Porc_Votos": 5.67,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 4,
+              "Votos": 610,
+              "Porc_Votos": 5.95,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 2,
+              "Votos": 620,
+              "Porc_Votos": 6.04,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 1,
+              "Votos": 636,
+              "Porc_Votos": 6.2,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 9,
+              "Votos": 640,
+              "Porc_Votos": 6.24,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 3,
+              "Votos": 644,
+              "Porc_Votos": 6.28,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 1,
+              "Votos": 646,
+              "Porc_Votos": 6.3,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 5,
+              "Votos": 676,
+              "Porc_Votos": 6.59,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 5,
+              "Votos": 722,
+              "Porc_Votos": 7.04,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 3,
+              "Votos": 836,
+              "Porc_Votos": 8.15,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400021",
+              "Candidato": 2,
+              "Votos": 1009,
+              "Porc_Votos": 9.84,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "029",
+      "Desc_Municipio": "GUATICA",
+      "Fecha": "03021307",
+      "Anio": "2026",
+      "Mesas_Instaladas": 34,
+      "Mesas_Informadas": 34,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 11015,
+      "Total_Sufragantes": 5509,
+      "Porc_Sufragantes": 50.01,
+      "Votos_Validos": 4879,
+      "Porc_Votos_Validos": 88.56,
+      "Votos_Nulos": 205,
+      "Porc_Votos_Nulos": 3.72,
+      "Votos_No_Marcados": 425,
+      "Porc_Votos_No_Marcados": 7.71,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 4879,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 4879,
+              "Porc": 88.56
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 3091,
+              "Porc_Votos": 63.35,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1255,
+              "Porc_Votos": 25.72,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 533,
+              "Porc_Votos": 10.92,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 5,
+              "Votos": 111,
+              "Porc_Votos": 2.27,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 4,
+              "Votos": 203,
+              "Porc_Votos": 4.16,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 1,
+              "Votos": 218,
+              "Porc_Votos": 4.46,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 3,
+              "Votos": 235,
+              "Porc_Votos": 4.81,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 5,
+              "Votos": 239,
+              "Porc_Votos": 4.89,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 1,
+              "Votos": 271,
+              "Porc_Votos": 5.55,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 2,
+              "Votos": 272,
+              "Porc_Votos": 5.57,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 1,
+              "Votos": 278,
+              "Porc_Votos": 5.69,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 2,
+              "Votos": 315,
+              "Porc_Votos": 6.45,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 8,
+              "Votos": 323,
+              "Porc_Votos": 6.62,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 3,
+              "Votos": 351,
+              "Porc_Votos": 7.19,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 4,
+              "Votos": 359,
+              "Porc_Votos": 7.35,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 6,
+              "Votos": 382,
+              "Porc_Votos": 7.82,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 9,
+              "Votos": 424,
+              "Porc_Votos": 8.69,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 7,
+              "Votos": 441,
+              "Porc_Votos": 9.03,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400029",
+              "Candidato": 2,
+              "Votos": 457,
+              "Porc_Votos": 9.36,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0004",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "025",
+      "Desc_Municipio": "DOSQUEBRADAS",
+      "Fecha": "03021307",
+      "Anio": "2026",
+      "Mesas_Instaladas": 547,
+      "Mesas_Informadas": 547,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 177873,
+      "Total_Sufragantes": 88662,
+      "Porc_Sufragantes": 49.84,
+      "Votos_Validos": 78907,
+      "Porc_Votos_Validos": 88.99,
+      "Votos_Nulos": 5071,
+      "Porc_Votos_Nulos": 5.71,
+      "Votos_No_Marcados": 4684,
+      "Porc_Votos_No_Marcados": 5.28,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 78907,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 78907,
+              "Porc": 88.99
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 44095,
+              "Porc_Votos": 55.88,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 25425,
+              "Porc_Votos": 32.22,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 9387,
+              "Porc_Votos": 11.89,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 2,
+              "Votos": 4532,
+              "Porc_Votos": 5.74,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 5,
+              "Votos": 4781,
+              "Porc_Votos": 6.05,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 9,
+              "Votos": 4787,
+              "Porc_Votos": 6.06,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 2,
+              "Votos": 4805,
+              "Porc_Votos": 6.08,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 1,
+              "Votos": 4855,
+              "Porc_Votos": 6.15,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 1,
+              "Votos": 4867,
+              "Porc_Votos": 6.16,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 3,
+              "Votos": 4878,
+              "Porc_Votos": 6.18,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 7,
+              "Votos": 4907,
+              "Porc_Votos": 6.21,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 3,
+              "Votos": 4911,
+              "Porc_Votos": 6.22,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 8,
+              "Votos": 4919,
+              "Porc_Votos": 6.23,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 6,
+              "Votos": 4948,
+              "Porc_Votos": 6.27,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 2,
+              "Votos": 4952,
+              "Porc_Votos": 6.27,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 4,
+              "Votos": 5056,
+              "Porc_Votos": 6.4,
+              "Partido": "00200",
+              "Orden": 9
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 4,
+              "Votos": 5076,
+              "Porc_Votos": 6.43,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 5,
+              "Votos": 5111,
+              "Porc_Votos": 6.47,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400025",
+              "Candidato": 1,
+              "Votos": 5522,
+              "Porc_Votos": 6.99,
+              "Partido": "00300",
+              "Orden": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "013",
+      "Desc_Municipio": "BALBOA",
+      "Fecha": "03021251",
+      "Anio": "2026",
+      "Mesas_Instaladas": 20,
+      "Mesas_Informadas": 20,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 5934,
+      "Total_Sufragantes": 2966,
+      "Porc_Sufragantes": 49.98,
+      "Votos_Validos": 2628,
+      "Porc_Votos_Validos": 88.6,
+      "Votos_Nulos": 170,
+      "Porc_Votos_Nulos": 5.73,
+      "Votos_No_Marcados": 168,
+      "Porc_Votos_No_Marcados": 5.66,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 2628,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 2628,
+              "Porc": 88.6
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 1423,
+              "Porc_Votos": 54.14,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 832,
+              "Porc_Votos": 31.65,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 373,
+              "Porc_Votos": 14.19,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 6,
+              "Votos": 106,
+              "Porc_Votos": 4.03,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 9,
+              "Votos": 109,
+              "Porc_Votos": 4.14,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 3,
+              "Votos": 131,
+              "Porc_Votos": 4.98,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 4,
+              "Votos": 132,
+              "Porc_Votos": 5.02,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 5,
+              "Votos": 140,
+              "Porc_Votos": 5.32,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 7,
+              "Votos": 146,
+              "Porc_Votos": 5.55,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 5,
+              "Votos": 147,
+              "Porc_Votos": 5.59,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 1,
+              "Votos": 151,
+              "Porc_Votos": 5.74,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 3,
+              "Votos": 152,
+              "Porc_Votos": 5.78,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 1,
+              "Votos": 165,
+              "Porc_Votos": 6.27,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 2,
+              "Votos": 165,
+              "Porc_Votos": 6.27,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 1,
+              "Votos": 193,
+              "Porc_Votos": 7.34,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 4,
+              "Votos": 203,
+              "Porc_Votos": 7.72,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 2,
+              "Votos": 208,
+              "Porc_Votos": 7.91,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 2,
+              "Votos": 239,
+              "Porc_Votos": 9.09,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400013",
+              "Candidato": 8,
+              "Votos": 241,
+              "Porc_Votos": 9.17,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0007",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "001",
+      "Desc_Municipio": "PEREIRA",
+      "Fecha": "03021251",
+      "Anio": "2026",
+      "Mesas_Instaladas": 1378,
+      "Mesas_Informadas": 1378,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 461611,
+      "Total_Sufragantes": 230542,
+      "Porc_Sufragantes": 49.94,
+      "Votos_Validos": 205275,
+      "Porc_Votos_Validos": 89.04,
+      "Votos_Nulos": 13315,
+      "Porc_Votos_Nulos": 5.77,
+      "Votos_No_Marcados": 11952,
+      "Porc_Votos_No_Marcados": 5.18,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 205275,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 205275,
+              "Porc": 89.04
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 115893,
+              "Porc_Votos": 56.45,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 64004,
+              "Porc_Votos": 31.17,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 25378,
+              "Porc_Votos": 12.36,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 1,
+              "Votos": 12283,
+              "Porc_Votos": 5.98,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 1,
+              "Votos": 12411,
+              "Porc_Votos": 6.04,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 2,
+              "Votos": 12437,
+              "Porc_Votos": 6.05,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 2,
+              "Votos": 12585,
+              "Porc_Votos": 6.13,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 7,
+              "Votos": 12612,
+              "Porc_Votos": 6.14,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 5,
+              "Votos": 12622,
+              "Porc_Votos": 6.14,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 2,
+              "Votos": 12644,
+              "Porc_Votos": 6.15,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 8,
+              "Votos": 12664,
+              "Porc_Votos": 6.16,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 6,
+              "Votos": 12682,
+              "Porc_Votos": 6.17,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 3,
+              "Votos": 12734,
+              "Porc_Votos": 6.2,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 1,
+              "Votos": 12793,
+              "Porc_Votos": 6.23,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 5,
+              "Votos": 13045,
+              "Porc_Votos": 6.35,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 9,
+              "Votos": 13102,
+              "Porc_Votos": 6.38,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 3,
+              "Votos": 13280,
+              "Porc_Votos": 6.46,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 4,
+              "Votos": 13581,
+              "Porc_Votos": 6.61,
+              "Partido": "00200",
+              "Orden": 9
+            },
+            {
+              "Amb_Presen": "2400001",
+              "Candidato": 4,
+              "Votos": 13800,
+              "Porc_Votos": 6.72,
+              "Partido": "00300",
+              "Orden": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "008",
+      "Desc_Municipio": "APIA",
+      "Fecha": "03021251",
+      "Anio": "2026",
+      "Mesas_Instaladas": 35,
+      "Mesas_Informadas": 35,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 10855,
+      "Total_Sufragantes": 5426,
+      "Porc_Sufragantes": 49.98,
+      "Votos_Validos": 4779,
+      "Porc_Votos_Validos": 88.07,
+      "Votos_Nulos": 336,
+      "Porc_Votos_Nulos": 6.19,
+      "Votos_No_Marcados": 311,
+      "Porc_Votos_No_Marcados": 5.73,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 4779,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 4779,
+              "Porc": 88.07
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 2705,
+              "Porc_Votos": 56.6,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1339,
+              "Porc_Votos": 28.01,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 735,
+              "Porc_Votos": 15.37,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 1,
+              "Votos": 124,
+              "Porc_Votos": 2.59,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 2,
+              "Votos": 189,
+              "Porc_Votos": 3.95,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 8,
+              "Votos": 198,
+              "Porc_Votos": 4.14,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 5,
+              "Votos": 232,
+              "Porc_Votos": 4.85,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 4,
+              "Votos": 248,
+              "Porc_Votos": 5.18,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 3,
+              "Votos": 258,
+              "Porc_Votos": 5.39,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 9,
+              "Votos": 268,
+              "Porc_Votos": 5.6,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 2,
+              "Votos": 279,
+              "Porc_Votos": 5.83,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 5,
+              "Votos": 292,
+              "Porc_Votos": 6.11,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 1,
+              "Votos": 306,
+              "Porc_Votos": 6.4,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 6,
+              "Votos": 318,
+              "Porc_Votos": 6.65,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 3,
+              "Votos": 383,
+              "Porc_Votos": 8.01,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 1,
+              "Votos": 412,
+              "Porc_Votos": 8.62,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 4,
+              "Votos": 415,
+              "Porc_Votos": 8.68,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 7,
+              "Votos": 428,
+              "Porc_Votos": 8.95,
+              "Partido": "00200",
+              "Orden": 9
+            },
+            {
+              "Amb_Presen": "2400008",
+              "Candidato": 2,
+              "Votos": 429,
+              "Porc_Votos": 8.97,
+              "Partido": "00100",
+              "Orden": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "062",
+      "Desc_Municipio": "MISTRATO",
+      "Fecha": "03021312",
+      "Anio": "2026",
+      "Mesas_Instaladas": 41,
+      "Mesas_Informadas": 41,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 12825,
+      "Total_Sufragantes": 6412,
+      "Porc_Sufragantes": 49.99,
+      "Votos_Validos": 5642,
+      "Porc_Votos_Validos": 87.99,
+      "Votos_Nulos": 360,
+      "Porc_Votos_Nulos": 5.61,
+      "Votos_No_Marcados": 410,
+      "Porc_Votos_No_Marcados": 6.39,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 5642,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 5642,
+              "Porc": 87.99
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 3304,
+              "Porc_Votos": 58.56,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1638,
+              "Porc_Votos": 29.03,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 700,
+              "Porc_Votos": 12.4,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 8,
+              "Votos": 248,
+              "Porc_Votos": 4.39,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 3,
+              "Votos": 278,
+              "Porc_Votos": 4.92,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 5,
+              "Votos": 285,
+              "Porc_Votos": 5.05,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 2,
+              "Votos": 296,
+              "Porc_Votos": 5.24,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 1,
+              "Votos": 311,
+              "Porc_Votos": 5.51,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 4,
+              "Votos": 316,
+              "Porc_Votos": 5.6,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 4,
+              "Votos": 321,
+              "Porc_Votos": 5.68,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 5,
+              "Votos": 327,
+              "Porc_Votos": 5.79,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 9,
+              "Votos": 328,
+              "Porc_Votos": 5.81,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 2,
+              "Votos": 330,
+              "Porc_Votos": 5.84,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 2,
+              "Votos": 350,
+              "Porc_Votos": 6.2,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 1,
+              "Votos": 370,
+              "Porc_Votos": 6.55,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 3,
+              "Votos": 383,
+              "Porc_Votos": 6.78,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 1,
+              "Votos": 403,
+              "Porc_Votos": 7.14,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 6,
+              "Votos": 507,
+              "Porc_Votos": 8.98,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400062",
+              "Candidato": 7,
+              "Votos": 589,
+              "Porc_Votos": 10.43,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "054",
+      "Desc_Municipio": "MARSELLA",
+      "Fecha": "03021312",
+      "Anio": "2026",
+      "Mesas_Instaladas": 51,
+      "Mesas_Informadas": 51,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 15820,
+      "Total_Sufragantes": 7911,
+      "Porc_Sufragantes": 50.0,
+      "Votos_Validos": 6844,
+      "Porc_Votos_Validos": 86.51,
+      "Votos_Nulos": 437,
+      "Porc_Votos_Nulos": 5.52,
+      "Votos_No_Marcados": 630,
+      "Porc_Votos_No_Marcados": 7.96,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 6844,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 6844,
+              "Porc": 86.51
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 4228,
+              "Porc_Votos": 61.77,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1755,
+              "Porc_Votos": 25.64,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 861,
+              "Porc_Votos": 12.58,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 1,
+              "Votos": 262,
+              "Porc_Votos": 3.82,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 3,
+              "Votos": 284,
+              "Porc_Votos": 4.14,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 5,
+              "Votos": 296,
+              "Porc_Votos": 4.32,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 1,
+              "Votos": 353,
+              "Porc_Votos": 5.15,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 9,
+              "Votos": 380,
+              "Porc_Votos": 5.55,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 5,
+              "Votos": 390,
+              "Porc_Votos": 5.69,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 2,
+              "Votos": 409,
+              "Porc_Votos": 5.97,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 7,
+              "Votos": 415,
+              "Porc_Votos": 6.06,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 3,
+              "Votos": 443,
+              "Porc_Votos": 6.47,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 8,
+              "Votos": 474,
+              "Porc_Votos": 6.92,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 4,
+              "Votos": 504,
+              "Porc_Votos": 7.36,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 1,
+              "Votos": 506,
+              "Porc_Votos": 7.39,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 2,
+              "Votos": 508,
+              "Porc_Votos": 7.42,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 2,
+              "Votos": 521,
+              "Porc_Votos": 7.61,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 4,
+              "Votos": 526,
+              "Porc_Votos": 7.68,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400054",
+              "Candidato": 6,
+              "Votos": 573,
+              "Porc_Votos": 8.37,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0002",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "046",
+      "Desc_Municipio": "LA VIRGINIA",
+      "Fecha": "03021312",
+      "Anio": "2026",
+      "Mesas_Instaladas": 98,
+      "Mesas_Informadas": 98,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 34276,
+      "Total_Sufragantes": 16871,
+      "Porc_Sufragantes": 49.22,
+      "Votos_Validos": 14557,
+      "Porc_Votos_Validos": 86.28,
+      "Votos_Nulos": 1199,
+      "Porc_Votos_Nulos": 7.1,
+      "Votos_No_Marcados": 1115,
+      "Porc_Votos_No_Marcados": 6.6,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 14557,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 14557,
+              "Porc": 86.28
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 8644,
+              "Porc_Votos": 59.38,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 4031,
+              "Porc_Votos": 27.69,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 1882,
+              "Porc_Votos": 12.92,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 3,
+              "Votos": 711,
+              "Porc_Votos": 4.88,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 1,
+              "Votos": 718,
+              "Porc_Votos": 4.93,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 5,
+              "Votos": 726,
+              "Porc_Votos": 4.98,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 2,
+              "Votos": 824,
+              "Porc_Votos": 5.66,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 4,
+              "Votos": 849,
+              "Porc_Votos": 5.83,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 2,
+              "Votos": 858,
+              "Porc_Votos": 5.89,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 6,
+              "Votos": 873,
+              "Porc_Votos": 5.99,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 1,
+              "Votos": 887,
+              "Porc_Votos": 6.09,
+              "Partido": "00300",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 8,
+              "Votos": 897,
+              "Porc_Votos": 6.16,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 3,
+              "Votos": 913,
+              "Porc_Votos": 6.27,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 7,
+              "Votos": 948,
+              "Porc_Votos": 6.51,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 4,
+              "Votos": 960,
+              "Porc_Votos": 6.59,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 9,
+              "Votos": 1012,
+              "Porc_Votos": 6.95,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 1,
+              "Votos": 1058,
+              "Porc_Votos": 7.26,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 5,
+              "Votos": 1063,
+              "Porc_Votos": 7.3,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400046",
+              "Candidato": 2,
+              "Votos": 1260,
+              "Porc_Votos": 8.65,
+              "Partido": "00200",
+              "Orden": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Avance": "0014",
+      "Boletin": "0001",
+      "Tipo_Boletin": "MUNICIPAL",
+      "Desc_Corporacion": "CONSULTAS",
+      "Departamento": "2400",
+      "Desc_Departamento": "RISARALDA",
+      "Municipio": "038",
+      "Desc_Municipio": "LA CELIA",
+      "Fecha": "03021307",
+      "Anio": "2026",
+      "Mesas_Instaladas": 22,
+      "Mesas_Informadas": 22,
+      "Porc_Mesas_Informadas": 100.0,
+      "Potencial_Sufragantes": 6903,
+      "Total_Sufragantes": 3452,
+      "Porc_Sufragantes": 50.0,
+      "Votos_Validos": 3077,
+      "Porc_Votos_Validos": 89.13,
+      "Votos_Nulos": 211,
+      "Porc_Votos_Nulos": 6.11,
+      "Votos_No_Marcados": 164,
+      "Porc_Votos_No_Marcados": 4.75,
+      "Detalle_Circunscripcion": [
+        {
+          "Circunscripcion": 0,
+          "Desc_Circunscripcion": "NACIONAL",
+          "Es_Circunscripcion": "No",
+          "Detalle_Partidos_Totales": [
+            {
+              "Partido": "00995",
+              "Descripcion": "VOTOS POR LISTA O PARTIDO",
+              "Votos": 3077,
+              "Porc": 100.0
+            },
+            {
+              "Partido": "00996",
+              "Descripcion": "VOTOS EN BLANCO",
+              "Votos": 0,
+              "Porc": 0.0
+            },
+            {
+              "Partido": "00999",
+              "Descripcion": "VOTOS V\u00c1LIDOS",
+              "Votos": 3077,
+              "Porc": 89.13
+            }
+          ],
+          "Detalle_Partido": [
+            {
+              "Partido": "00200",
+              "Votos": 1732,
+              "Porc_Votos": 56.28,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00300",
+              "Votos": 1068,
+              "Porc_Votos": 34.7,
+              "Pref": "1"
+            },
+            {
+              "Partido": "00100",
+              "Votos": 277,
+              "Porc_Votos": 9.0,
+              "Pref": "1"
+            }
+          ],
+          "Detalle_Candidato": [
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 1,
+              "Votos": 58,
+              "Porc_Votos": 1.88,
+              "Partido": "00100",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 1,
+              "Votos": 105,
+              "Porc_Votos": 3.41,
+              "Partido": "00200",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 6,
+              "Votos": 135,
+              "Porc_Votos": 4.38,
+              "Partido": "00200",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 3,
+              "Votos": 147,
+              "Porc_Votos": 4.77,
+              "Partido": "00300",
+              "Orden": 1
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 3,
+              "Votos": 148,
+              "Porc_Votos": 4.8,
+              "Partido": "00200",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 7,
+              "Votos": 154,
+              "Porc_Votos": 5.0,
+              "Partido": "00200",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 5,
+              "Votos": 184,
+              "Porc_Votos": 5.97,
+              "Partido": "00300",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 1,
+              "Votos": 192,
+              "Porc_Votos": 6.23,
+              "Partido": "00300",
+              "Orden": 3
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 4,
+              "Votos": 200,
+              "Porc_Votos": 6.49,
+              "Partido": "00200",
+              "Orden": 5
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 2,
+              "Votos": 219,
+              "Porc_Votos": 7.11,
+              "Partido": "00100",
+              "Orden": 2
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 5,
+              "Votos": 225,
+              "Porc_Votos": 7.31,
+              "Partido": "00200",
+              "Orden": 6
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 4,
+              "Votos": 228,
+              "Porc_Votos": 7.4,
+              "Partido": "00300",
+              "Orden": 4
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 9,
+              "Votos": 234,
+              "Porc_Votos": 7.6,
+              "Partido": "00200",
+              "Orden": 7
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 2,
+              "Votos": 241,
+              "Porc_Votos": 7.83,
+              "Partido": "00200",
+              "Orden": 8
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 8,
+              "Votos": 290,
+              "Porc_Votos": 9.42,
+              "Partido": "00200",
+              "Orden": 9
+            },
+            {
+              "Amb_Presen": "2400038",
+              "Candidato": 2,
+              "Votos": 317,
+              "Porc_Votos": 10.3,
+              "Partido": "00300",
+              "Orden": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
